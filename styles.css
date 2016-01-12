@@ -1,0 +1,112 @@
+@font-face {
+    font-family: Roboto-regular;
+    src: url(fonts/Roboto/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: Roboto-medium;
+    src: url(fonts/Roboto/Roboto-medium.ttf);
+}
+body {
+    background: black;
+}
+.container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: 0;
+    margin-left: 0;
+}
+.patterns {
+    height: 100vh;
+    width: auto;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.stores {
+    position: relative;
+    top: 50px;
+}
+.stores>a {
+    display: inline-block;
+    vertical-align: middle;
+    width: 142px;
+    height: 43px;
+}
+.stores>a:hover {
+    opacity: .3
+}
+.stores>img {
+    display: inline-block;
+}
+.circle {
+    opacity: 0.1;
+}
+.iphone {
+    text-align: center;
+    position: relative;
+    top: 100px;
+    right: 25px;
+    width: 563px;
+    height: 274px;
+}
+.staytuned {
+    position: relative;
+    top: 210px;
+    text-align: center;
+}
+h1 {
+    font-family: roboto-medium;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    margin-bottom: 36px;
+}
+.subscribe {
+    background: rgba(60, 60, 60, 0.3);
+    text-align: left;
+    font-family: Roboto-regular;
+    font-size: 18px;
+    padding-left: 15px;
+    -moz-border-radius: 4px 0 0 4px;
+    border-radius: 4px 0 0 4px;
+    color: white;
+    width: 560px;
+    height: 49px;
+    outline: none;
+    border: none;
+}
+.button {
+    background: #2c2c2c;
+    color: white;
+    font-family: Roboto-regular;
+    font-size: 18px;
+    padding: 11px 39px;
+    margin-left: -4px;
+    -moz-border-radius: 0 4px 4px 0;
+    border-radius: 0 4px 4px 0;
+    vertical-align: inherit;
+}
+.btn:hover {
+    background: rgb(60, 60, 60);
+    color: white;
+}
+.social {
+    position: relative;
+    top: 300px;
+    text-align: center;
+}
+.social>a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    padding: 10px;
+}
+.social>a:hover {
+    color: #313131;
+}
+
+@media screen and (max-width:768px) { 
+    .patterns{
+        display: none;
+    }
+}
